@@ -61,7 +61,7 @@ img { height: auto; max-width: 100%; vertical-align: bottom; }
 
 /* HEADER */
 .header { background-color: #356ac2; width: 100%; height: 130px; }
-    .header .logo { position: absolute; background: transparent url("/images/header/top_logo.svg") center center no-repeat; width: 91px; height: 75px; }
+    .header .logo { position: absolute; background: transparent url("../images/header/top_logo.svg") center center no-repeat; width: 91px; height: 75px; }
     .header .lang-swich { position: absolute; padding: 0; margin: 0; list-style: none; }
         .header .lang-swich a { font-family: 'GothamProBold'; line-height: 40px; color: #fff; text-transform: uppercase; text-decoration: none; }
         .header .lang-swich .caret { background: transparent url("../images/header/top_lang.svg") 0 center no-repeat; border: none; width: 26px; height: 14px; margin: 13px 0 0 17px; vertical-align: top; display: block; float: right; }
