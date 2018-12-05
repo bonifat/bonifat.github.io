@@ -1,0 +1,138 @@
+@media (min-width: 768px) {
+    .content { padding: 0 50px 50px 50px; }
+
+    .btn { font-size: 20px; }
+
+    h1 { margin: 45px 0; padding: 0 15px; font-size: 30px; line-height: 36px; }
+    h2 { margin: 12px 0 2px 0; font-size: 20px; line-height: 24px; }
+    h3 { margin: 12px 0 2px 0; font-size: 21px; line-height: 33px; }
+    p { margin: 0 0 9px 0; font-size: 16px; line-height: 16px; }
+
+    /* HEADER */
+    .navbar { margin: 45px 0 0 0; }
+    .header .logo { left: 27px; }
+    .header .lang-swich { top: 40px; right: 230px; }
+        .header .lang-swich a { font-size: 20px; }
+        .header .lang-swich .dropdown-menu { min-width: 105px; }
+
+    /* BOOTSTRAP MENU */
+    .navbar-header { float: right; margin-right: 40px; }
+    .navbar-toggle { display: block; }
+    .navbar-collapse { margin-top: 85px; margin-right: -15px; }
+    .navbar-collapse.collapse { display: none !important; }
+    .collapse.in { display: block !important; }
+
+    /* Block 1 */
+    .block-1 { background-image: url("../../images/bg_block_1_768.jpg"); height: 700px; }
+        .block-1 h1 { margin: 80px 0 0 0; font-size: 30px; line-height: 36px; text-align: left; }
+        .block-1 .description { width: 500px; margin: 85px 0 0 0; }
+        .block-1 p { margin: 0 0 24px 0; font-size: 16px; line-height: 23px; }
+        .block-1 .btn-big { left: 15px; bottom: 125px; width: 315px; font-size: 24px; line-height: 80px; border-radius: 40px; margin: 0; }
+        .block-1 .combo-btn { right: 30px; top: auto; bottom: 125px; width: 300px; height: 80px; margin: 0; border-radius: 40px; }
+            .block-1 .combo-btn a { line-height: 24px; }
+                .block-1 .combo-btn a.sign-in { background-size: 1px 60px; }
+        .block-1 .social { right: 30px; margin: 0; width: auto; }
+            .block-1 .social li { float: left; display: block; }
+
+    /* Block 2 */
+    .block-2 .advantages { width: 100%; padding-top: 90px; margin-top: 55px; font-size: 16px; line-height: 17px; }
+        .block-2 div[class^='col']:nth-child(1) .advantages { background-size: 56px 63px; }
+        .block-2 div[class^='col']:nth-child(2) .advantages { background-size: 82px 71px; }
+        .block-2 div[class^='col']:nth-child(3) .advantages { background-size: 89px 73px; }
+    .block-2 .video { width: 375px; margin: 30px auto; }
+        .block-2 .video iframe { height: 250px; }
+
+    /* Block 3 */
+    .block-3 { padding-bottom: 50px; }
+        .block-3 li { padding: 15px 20px; }
+            .block-3 li div { padding: 0 15px 0 125px; height: 135px; }
+                .block-3 li:nth-child(1) div { background-size: 63px 49px; }
+                .block-3 li:nth-child(2) div { background-size: 62px 64px; }
+                .block-3 li:nth-child(3) div { background-size: 65px 53px; }
+                .block-3 li:nth-child(4) div { background-size: 59px 51px; }
+                .block-3 li:nth-child(5) div { background-size: 65px 59px; }
+                .block-3 li:nth-child(6) div { background-size: 51px 51px; }
+
+    /* Block 4 */
+    .block-4 { padding-bottom: 50px; }
+        .block-4 li { padding-top: 100px; padding-left: 15px; padding-right: 15px; margin-top: 50px; }
+            .block-4 li:nth-child(1) { background-size: 68px 82px; }
+            .block-4 li:nth-child(2) { background-size: 80px 80px; }
+            .block-4 li:nth-child(3) { background-size: 70px 79px;; }
+            .block-4 li .title { font-size: 16px; }
+
+    /* Block 5 */
+    .block-5 { padding-bottom: 110px; }
+        .block-5 .nav-tabs > li { width: 33.3333333%; border: none; }
+            .block-5 .nav-tabs > li > a { font-size: 20px; line-height: 65px; }
+            .block-5 .tab-content { padding-top: 25px; padding-bottom: 20px; }
+            .block-5 .tab-content .btn { margin: 15px 0 0 0; padding: 0 25px; line-height: 50px; border-radius: 25px; }
+
+    /* Block 6 */
+    .block-6 .graph2 { margin-bottom: 55px; }
+    .block-6 .motivation { margin-top: 60px; padding-bottom: 35px; font-size: 16px; line-height: 27px; }
+    .block-6 .btn { margin-top: 55px; font-size: 16px; }
+
+    /* Block 7 */
+    .block-7 .calculator .title { padding: 20px 0 0 15px; font-size: 16px; }
+    .block-7 .calculator div[class^='col'] { padding: 15px 20px; }
+    .block-7 .calculator .strategy,
+    .block-7 .calculator .term { height: 185px; }
+    .block-7 .calculator .package { height: 135px; }
+        .block-7 .calculator .strategy .rb-group,
+        .block-7 .calculator .term .rb-group { height: 135px; }
+        .block-7 .calculator .package .rb-group { height: 85px; }
+            .block-7 .calculator .strategy .rb-group label,
+            .block-7 .calculator .term .rb-group label { background-position: center 20px; padding-top: 85px; font-size: 12px; line-height: 18px; }
+                .block-7 .calculator .term .rb-group label span { top: 36px; font-size: 20px; }
+                .block-7 .calculator .strategy .rb-group label:nth-of-type(1) { background-size: 32px 47px; }
+                .block-7 .calculator .strategy .rb-group label:nth-of-type(2) { background-size: 59px 48px; }
+                .block-7 .calculator .strategy .rb-group label:nth-of-type(3) { background-size: 58px 46px; }
+                .block-7 .calculator .term .rb-group label { background-size: 41px 45px; }
+            .block-7 .calculator .package .rb-group label { padding-top: 15px; font-size: 16px; line-height: 22px; }
+                .block-7 .calculator .package .rb-group label span { font-size: 16px; line-height: 22px; }
+        .block-7 .calculator .calc-result { margin: 60px 0 0 0; }
+            .block-7 .calculator .calc-result li { height: 120px; font-size: 16px; line-height: 25px; }
+                .block-7 .calculator .calc-result li span { font-size: 20px; line-height: 25px; }
+        .block-7 .calculator .title-result { margin: 35px 0 20px 0; font-size: 20px; line-height: 30px; }
+        .block-7 .calculator .details-wrap { margin: 0; }
+        .block-7 .calculator .details { margin: 0; width: auto; }
+            .block-7 .calculator .details li { font-size: 16px; line-height: 42px; }
+        .block-7 .calculator .btn { margin: 0 auto; padding: 0 30px; line-height: 60px; border-radius: 30px; }
+
+    /* Block 8 */
+    .block-8 .one-news { width: 200px; padding: 0; }
+        .block-8 .one-news .title { margin-top: 30px; font-size: 16px; line-height: 32px; }
+        .block-8 .one-news .date { font-size: 16px; line-height: 32px; }
+
+    /* Block 9 */
+    .block-9 { padding-bottom: 35px; }
+        .block-9 .contact-form h2 { margin: 0 0 25px 0; font-size: 20px; line-height: 40px; }
+        .block-9 .contact-form { width: 400px; }
+            .block-9 .contact-form input[type='text'],
+            .block-9 .contact-form input[type='email'] { height: 60px; padding: 0 45px; font-size: 16px; line-height: 60px; border-radius: 30px; }
+            .block-9 .contact-form textarea { height: 170px; padding: 20px 45px; font-size: 16px; line-height: 25px; }
+            .block-9 .contact-form .recaptcha { margin: 0 auto 20px auto; }
+            .block-9 .contact-form .btn { line-height: 60px; border-radius: 30px; padding: 0 30px; }
+            .block-9 .contact-form .error-msg { bottom: -50px; height: 60px; padding: 0 30px; line-height: 60px; border-radius: 30px; }
+            .block-9 .secure-logo { width: 400px; margin: 0 auto 90px auto; }
+            .block-9 .contact-message { background-position: left center; width: 435px; padding: 15px 0 15px 45px; margin: 30px auto 15px auto; font-size: 18px; line-height: 23px; text-align: left; }
+        .block-9 .eighteen-plus { bottom: 220px; margin-left: 100px; width: 55px; height: 55px; }
+
+    /* FOOTER */
+    .footer .top-line { padding-top: 50px; }
+    .footer .bottom-line { padding-bottom: 40px; }
+    .footer .title { font-size: 18px; line-height: 30px; }
+        .footer ul li { padding: 10px 0; }
+        .footer ul li,
+        .footer ul li a { font-size: 16px; line-height: 21px; }
+        .footer .logo-list { margin-top: 70px; }
+        .footer .menu { margin: 30px auto 25px auto; }
+            .footer .menu li a { margin: 0 20px; font-size: 16px; line-height: 40px; }
+                .footer .menu li a:hover:after,
+                .footer .menu li.active a:after { top: -30px; border-top: 4px solid #db4437; }
+
+    /* SOCIAL */
+    .social li a { width: 45px; height: 45px; }
+
+}

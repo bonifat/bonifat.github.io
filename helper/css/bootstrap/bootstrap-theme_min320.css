@@ -1,0 +1,27 @@
+@media (min-width: 100px) {
+}
+@media (min-width: 330px) {
+}
+@media (min-width: 375px) {
+    .block-1 .combo-btn { top: 155px; }
+    .block-1 .btn-big { bottom: 100px; }
+    .block-2 .video iframe { height: 200px; }
+}
+@media (min-width: 425px) {
+    .block-2 .video iframe { height: 220px; }
+}
+@media (min-width: 475px) {
+    .block-2 .video iframe { height: 240px; }
+}
+@media (min-width: 501px) {
+    .block-2 .video iframe { height: 300px; }
+}
+@media (min-width: 561px) {
+    .block-2 .video iframe { height: 320px; }
+}
+@media (min-width: 601px) {
+    .block-2 .video iframe { height: 340px; }
+}
+@media (min-width: 610px) {
+    .block-2 .video iframe { height: 380px; }
+}

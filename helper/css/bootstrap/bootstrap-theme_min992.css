@@ -1,0 +1,41 @@
+@media (min-width: 992px) {
+    /* HEADER */
+    .header .logo { left: 137px; }
+    .header .lang-swich { right: 340px; }
+
+    /* BOOTSTRAP MENU */
+    .navbar-header { margin-right: 150px; }
+
+    /* Block 1 */
+    .block-1 { background-image: url("../../images/bg_block_1_992.jpg"); }
+        .block-1 h1 { margin: 80px 0 0 110px; }
+        .block-1 .description { margin-left: 110px; }
+        .block-1 .btn-big { left: 125px; bottom: 115px; }
+        .block-1 .combo-btn { right: 140px; bottom: 115px; }
+        .block-1 .social { bottom: 20px; right: 140px; }
+
+    /* Block 2 */
+    .block-2 .advantages { margin-top: 35px; }
+    .block-2 .video { margin: 0 auto 30px auto; }
+
+    /* Block 8 */
+    .block-8 .one-news { width: 250px; }
+    .block-8 .one-news .title { margin-top: 15px; }
+
+    /* Block 9 */
+    .block-9 { padding-bottom: 70px; }
+        .block-9 .secure-logo { height: 235px; margin: 0 auto 30px auto; }
+        .block-9 .contact-message { margin: 0 auto 15px auto; }
+        .block-9 .contact-form .recaptcha { float: right; }
+        .block-9 .contact-form .btn { float: right; }
+
+    /* FOOTER */
+    .footer .top-line { padding-top: 90px; padding-bottom: 60px; }
+    .footer .bottom-line { padding-bottom: 0; }
+    .footer .logo-list { margin-top: 30px; }
+    .footer .social { padding-top: 30px; }
+
+    /* SOCIAL */
+    .social li a { width: 35px; height: 35px; }
+
+}
